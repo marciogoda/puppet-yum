@@ -1,6 +1,6 @@
-# = Class: yum::repo::a10gen
+# = Class: yum::repo::ambari
 #
-# This class installs the 10gen repo for MongoDB
+# This class installs the ambari repo for Hadoop
 #
 class yum::repo::ambari {
   yum::managed_yumrepo { 'ambari':
